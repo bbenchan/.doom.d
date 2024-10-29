@@ -310,7 +310,8 @@ The shell command used to build the image is:
      (lambda (_) (format "*docker-build-output: %s *" image-name)))))
 
 (after! dockerfile-ts-mode
-  (set-docsets! 'dockerfile-ts-mode "Docker"))
+  (set-docsets! 'dockerfile-ts-mode "Docker")
+  (set-formatter! 'dockfmt '("dockfmt" "fmt" filepath) :modes '(dockerfile-ts-mode)))
 
 ;; yaml
 (use-package! yaml-ts-mode
