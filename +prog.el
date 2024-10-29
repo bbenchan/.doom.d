@@ -32,7 +32,7 @@
   (when (executable-find "gopkgs")
     (defun bc/go-packages--gopkgs ()
       "Return a list of all Go packages, using `gopkgs'."
-      (if-let (project-dir (doom-project-root))
+      (if-let* (project-dir (doom-project-root))
           (sort (process-lines "gopkgs" "-workDir" project-dir) #'string<)
         (sort (process-lines "gopkgs") #'string<)))
     (setq go-packages-function 'bc/go-packages--gopkgs))

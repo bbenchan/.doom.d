@@ -354,18 +354,18 @@
         eaf-browser-auto-import-chrome-cookies nil
         eaf-dired-advisor-enable nil)
 
-  (if-let ((bookmarks (cond ((featurep :system 'macos) "~/Library/Application Support/Google/Chrome/Default/Bookmarks")
-                            ((featurep :system 'linux) (file-exists-p! (and (or "chromium/Default/Bookmarks"
-                                                               "google-chrome/Default/Bookmarks"))
-                                                      "~/.config"))
-                            (t nil))))
+  (if-let* ((bookmarks (cond ((featurep :system 'macos) "~/Library/Application Support/Google/Chrome/Default/Bookmarks")
+                             ((featurep :system 'linux) (file-exists-p! (and (or "chromium/Default/Bookmarks"
+                                                                                 "google-chrome/Default/Bookmarks"))
+                                                                        "~/.config"))
+                             (t nil))))
       (setq eaf-chrome-bookmark-file bookmarks))
 
-  (if-let ((history (cond ((featurep :system 'macos) "~/Library/Application Support/Google/Chrome/Default/History")
-                          ((featurep :system 'linux) (file-exists-p! (and (or "chromium/Default/History"
-                                                             "google-chrome/Default/History"))
-                                                    "~/.config"))
-                          (t nil))))
+  (if-let* ((history (cond ((featurep :system 'macos) "~/Library/Application Support/Google/Chrome/Default/History")
+                           ((featurep :system 'linux) (file-exists-p! (and (or "chromium/Default/History"
+                                                                               "google-chrome/Default/History"))
+                                                                      "~/.config"))
+                           (t nil))))
       (setq eaf-browser-chrome-history-file history))
   :config
   (require 'eaf-image-viewer)
@@ -407,7 +407,7 @@
   (defadvice! bc/aider-run-aider-before-advice ()
     :before #'aider-run-aider
     (unless (getenv "OPENAI_API_KEY")
-      (if-let ((apikey (bc/lookup-password :host "openkey.cloud" :user "apikey")))
+      (if-let* ((apikey (bc/lookup-password :host "openkey.cloud" :user "apikey")))
           (setenv "OPENAI_API_KEY" apikey)
         (user-error "No `api-key' found in the auth source")))))
 

@@ -17,7 +17,7 @@
 
 ;;;###autoload
 (defun bc/lookup-password (&rest keys)
-  (if-let ((result (apply #'auth-source-search keys)))
+  (if-let* ((result (apply #'auth-source-search keys)))
     (auth-info-password (car result))))
 
 ;;;###autoload

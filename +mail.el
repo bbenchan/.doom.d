@@ -147,7 +147,7 @@ The alist uniquely maps the number to the gnus-part."
   (defun bc/mu4e-open-mail-as-html ()
     "Open the HTML mail in Browser."
     (interactive)
-    (if-let ((msg (mu4e-message-at-point t)))
+    (if-let* ((msg (mu4e-message-at-point t)))
         (mu4e-action-view-in-browser msg)
       (user-error "No message at point")))
 
