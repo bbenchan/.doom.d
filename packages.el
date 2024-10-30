@@ -176,7 +176,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "337a5a2878faf17eb6493ca7ed3e33ca481d9cb1")
+  :pin "d3395019a0645027614da65be13c1aa4688d9f5c")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
