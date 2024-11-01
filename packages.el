@@ -56,7 +56,7 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "21f5d5c7bfdb7935828a51add8396658e4595ea7" :built-in (>= emacs-major-version 30))
+(package! project :pin "6addab8636e88d0a0737d513ab475d6c2169e4cd" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
 (package! diff-hl :pin "9e39dfc666ac03a8474b3a05da17e0c935894414")
@@ -70,7 +70,7 @@
     :pin "562e4681d365c70169d807e23db4c37427628627")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "01c9ecaaa89966cdcd250ac37c24a9c9f530b725"))
+    :pin "e8ddbca1c22f70f5831f931e448c987dc4f1867f"))
 
 (package! posframe :pin "ac9f954ac4c546e68daf403f2ab2b5ad4397f26e")
 
@@ -129,8 +129,8 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el"))
-  :pin "3893b78a169fcfbd81bcff2f4d7eed83b821e770")
-(package! gptel :pin "3a0e457e41c7a678a5ade1271129b914f16f4e2c")
+  :pin "d720ec494547273ea99bc22cd76c3a8ba9f945fb")
+(package! gptel :pin "557f383f445440203b4493104c31383a21005907")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -181,4 +181,4 @@
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
-    :pin "30f7ee8c5234b32c6d5acac850bb97c13ee90128"))
+    :pin "76d6c5fd8fccbb527010bd19c9e1e88dc0def2bc"))
