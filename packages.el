@@ -49,7 +49,7 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
-(unpin! (:editor snippets) (:tools editorconfig))
+(unpin! (:editor snippets))
 
 (package! ws-butler :disable t)
 (package! tide :disable t)
@@ -112,6 +112,7 @@
   :recipe (:host github :repo "manateelazycat/deno-bridge")
   :pin "ad0d7a9626f81509b9b3087723010a2a9a0fca37")
 
+(package! editorconfig :pin "24f5b2b1cd4e37adc245fb59f7edeb6872a707a4" :built-in (>= emacs-major-version 30))
 (package! hungry-delete :pin "d919e555e5c13a2edf4570f3ceec84f0ade71657")
 (package! centered-cursor-mode :pin "67ef719e685407dbc455c7430765e4e685fd95a9")
 (package! auto-save
