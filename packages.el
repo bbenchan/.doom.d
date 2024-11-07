@@ -74,7 +74,7 @@
 
 (package! posframe :pin "ac9f954ac4c546e68daf403f2ab2b5ad4397f26e")
 
-(package! nerd-icons :pin "cc6c46830305df123de20b18510b15838e1608d6")
+(package! nerd-icons :pin "a6ee08f1619bcde1a69b2defcfe8970c983640c1")
 (package! doom-themes
   :recipe (:host github :repo "bbenchan/doom-themes")
   :pin "8296c7b0c4ee7a619a706f7f611b32e36b58cc98")
@@ -88,11 +88,11 @@
 
 (package! pinyinlib :pin "1772c79b6f319b26b6a394a8dda065be3ea4498d")
 
-(package! rime :pin "a9ff37f929edd028b4bcfc3249fa26c8f613bb5c")
+(package! rime :pin "8837e4b86d3cef73079a3f4ad6d3c79885236aa5")
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "63ccacd6b294effe3cc0ca6958e353af72b9d8ea")
+(package! llm :pin "2db494495664d1937eaaa084a98502da6055d518")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -133,7 +133,7 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el"))
   :pin "3893b78a169fcfbd81bcff2f4d7eed83b821e770")
-(package! gptel :pin "b7ce74bcb777243bf21d20158e83efc889de7c8c")
+(package! gptel :pin "6e250b9088a483cd4326a467fc7030b4de0093f1")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
