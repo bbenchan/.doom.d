@@ -67,7 +67,7 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "6ff631d4e90005d5ba16aa21df6aecc26d0bc906")
+    :pin "213b1c4db852a97480e029453af869ff1a0764e0")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
     :pin "e8ddbca1c22f70f5831f931e448c987dc4f1867f"))
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "2db494495664d1937eaaa084a98502da6055d518")
+(package! llm :pin "7303499c17a907dbe9ff0ac54f6fb06bb8856f31")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -127,13 +127,13 @@
 
 (package! command-log-mode :pin "af600e6b4129c8115f464af576505ea8e789db27")
 ;; (package! pinentry :pin "91d51af8a1cb970743fb4841d7876c10ceb487e8")
-(package! envrc :pin "3c5a60dd917bf9db71d7b8fb822f7d5da7505a39")
+(package! envrc :pin "7a981c927b1cb854fbb2f996cc1b3414353c51a6")
 (package! mb-url :pin "a0ff17901324027774b943d8f58257adb9ae1861")
 
 (package! aider
-  :recipe (:host github :repo "tninja/aider.el" :files ("aider.el"))
-  :pin "3893b78a169fcfbd81bcff2f4d7eed83b821e770")
-(package! gptel :pin "6e250b9088a483cd4326a467fc7030b4de0093f1")
+  :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
+  :pin "bf4028c5833596bf03ec499d514ba23b1a27e680")
+(package! gptel :pin "db46b1364e205202bcc11cee0b42ef6bfc529bdb")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -170,7 +170,7 @@
 (package! sqlup-mode :pin "3f9df9c88d6a7f9b1ae907e401cad8d3d7d63bbf")
 (package! sql-indent
   :recipe (:host github :repo "alex-hhh/emacs-sql-indent")
-  :pin "c3dd49ccd1f0655ed1699058c16a777ac1cb1419")
+  :pin "2ed4c6a26b8f3d651ac6231eaafb2565d77c918b")
 (package! ob-sql-mode :pin "2eaf436a6ac2178b94442d80f84fc6c02aa644d8")
 
 ;; (package! topsy :pin "8b6c6d5026ac72b4c3704ed7bb8fafe1ea343699")
