@@ -28,7 +28,7 @@
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
 ;; wasn't installed correctly. Font issues are rarely Doom issues!
-(let ((font "Sarasa Fixed SC Nerd Font"))
+(let ((font "Sarasa Term SC Nerd"))
   (cond ((featurep :system 'linux) (setq doom-font (font-spec :family font :size 11 :weight 'Regular)))
         ((featurep :system 'macos) (setq doom-font (font-spec :family font :size 10 :weight 'Regular))))
   (setq doom-variable-pitch-font doom-font
