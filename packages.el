@@ -67,7 +67,7 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "213b1c4db852a97480e029453af869ff1a0764e0")
+    :pin "6d53bcbe185f653a5314d86ddc68ace6ca0f44ad")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
     :pin "e8ddbca1c22f70f5831f931e448c987dc4f1867f"))
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "7303499c17a907dbe9ff0ac54f6fb06bb8856f31")
+(package! llm :pin "c588471c0ea4032328d499d4dc017771fa661474")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -132,8 +132,8 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "bf4028c5833596bf03ec499d514ba23b1a27e680")
-(package! gptel :pin "4aa6b7ca79b1548c36e593d0d68d2dfa644fa958")
+  :pin "dbd8253aea4f12264e147ed0a7b4b8dad80c2d2c")
+(package! gptel :pin "41dc9884761849a7ee2dd257467b6ec9b7d8d904")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
