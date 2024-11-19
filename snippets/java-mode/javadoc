@@ -6,7 +6,7 @@
 # --
 /**
  * $1
- * @author: `(user-full-name)`
- * @date: `(format-time-string "%Y/%m/%d %H:%M")`
+ * @author `(user-full-name)`
+ * @date `(format-time-string "%Y/%m/%d %H:%M")`
  * @since ${0:1.0.0}
  */
