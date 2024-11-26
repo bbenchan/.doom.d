@@ -61,16 +61,16 @@
 
 (package! diff-hl :pin "9e39dfc666ac03a8474b3a05da17e0c935894414")
 
-(package! vterm :pin "988279316fc89e6d78947b48513f248597ba969a")
+(package! vterm :pin "fd50624723200f4ac261f122f6332f57796c782f")
 
 (when (modulep! :tools tree-sitter)
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "6d53bcbe185f653a5314d86ddc68ace6ca0f44ad")
+    :pin "0ebb3c1179c8eec13d12e64c70369a522f6ca84f")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "e8ddbca1c22f70f5831f931e448c987dc4f1867f"))
+    :pin "b8671edea85c6bd8f9246ade6a6d68f4f776f19f"))
 
 (package! posframe :pin "ac9f954ac4c546e68daf403f2ab2b5ad4397f26e")
 
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "c588471c0ea4032328d499d4dc017771fa661474")
+(package! llm :pin "e2f68f75c927a3fbe51490ba1a3a90a01bcae8e1")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -127,13 +127,13 @@
 
 (package! command-log-mode :pin "af600e6b4129c8115f464af576505ea8e789db27")
 ;; (package! pinentry :pin "91d51af8a1cb970743fb4841d7876c10ceb487e8")
-(package! envrc :pin "7a981c927b1cb854fbb2f996cc1b3414353c51a6")
+(package! envrc :pin "6576835f152e7c2509d07b4dd9f779a0bc08ae12")
 (package! mb-url :pin "a0ff17901324027774b943d8f58257adb9ae1861")
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "dbd8253aea4f12264e147ed0a7b4b8dad80c2d2c")
-(package! gptel :pin "41dc9884761849a7ee2dd257467b6ec9b7d8d904")
+(package! gptel :pin "652f3772bb394a2f8bce1efd1e5c8368ef16a7d1")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
