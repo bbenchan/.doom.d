@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "e2f68f75c927a3fbe51490ba1a3a90a01bcae8e1")
+(package! llm :pin "1ad5dae9c627993ddae711ee127e645ed0f267ce")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -127,13 +127,13 @@
 
 (package! command-log-mode :pin "af600e6b4129c8115f464af576505ea8e789db27")
 ;; (package! pinentry :pin "91d51af8a1cb970743fb4841d7876c10ceb487e8")
-(package! envrc :pin "6576835f152e7c2509d07b4dd9f779a0bc08ae12")
+(package! envrc :pin "60f509153828c45a0e05e11a4d83b2b1798f0706")
 (package! mb-url :pin "a0ff17901324027774b943d8f58257adb9ae1861")
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "dbd8253aea4f12264e147ed0a7b4b8dad80c2d2c")
-(package! gptel :pin "652f3772bb394a2f8bce1efd1e5c8368ef16a7d1")
+  :pin "6bf4d6789a47c50a2af1d1d620b913c7cb6df708")
+(package! gptel :pin "a4ca92ecb1d3ee1d1e41a08b0516a8e253328bb1")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
