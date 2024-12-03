@@ -59,7 +59,7 @@
 (package! project :pin "6addab8636e88d0a0737d513ab475d6c2169e4cd" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
-(package! diff-hl :pin "9e39dfc666ac03a8474b3a05da17e0c935894414")
+(package! diff-hl :pin "d9f54b512a0f583c6c3b51ce0c8ef62bffac7763")
 
 (package! vterm :pin "fd50624723200f4ac261f122f6332f57796c782f")
 
@@ -67,12 +67,12 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "0ebb3c1179c8eec13d12e64c70369a522f6ca84f")
+    :pin "c54f7ae75f9b1a9d69ed2bce074305537efdb1c8")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "b8671edea85c6bd8f9246ade6a6d68f4f776f19f"))
+    :pin "14e1e92c1bdbdfee481ea4c99f81b48a275e1a7d"))
 
-(package! posframe :pin "ac9f954ac4c546e68daf403f2ab2b5ad4397f26e")
+(package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
 (package! nerd-icons :pin "a6ee08f1619bcde1a69b2defcfe8970c983640c1")
 (package! doom-themes
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "1ad5dae9c627993ddae711ee127e645ed0f267ce")
+(package! llm :pin "94e5b862f07c5ac6af388040186abf123b00cac9")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -110,7 +110,7 @@
   :pin "9ef93d1de071de40b71644e3dd7a83342399c24b")
 (package! deno-bridge
   :recipe (:host github :repo "manateelazycat/deno-bridge")
-  :pin "ad0d7a9626f81509b9b3087723010a2a9a0fca37")
+  :pin "052db3abf0f72ac5792e4d8aff4554f3e5b3884d")
 
 (package! editorconfig
   :recipe (:nonrecursive t)
@@ -132,8 +132,8 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "6bf4d6789a47c50a2af1d1d620b913c7cb6df708")
-(package! gptel :pin "a4ca92ecb1d3ee1d1e41a08b0516a8e253328bb1")
+  :pin "5f9b7fa1fe955b15246472091793bedf558601b4")
+(package! gptel :pin "6adaa52e48c0fca7dbbbef9cc6b2096fc8075c66")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
