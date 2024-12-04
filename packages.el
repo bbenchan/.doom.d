@@ -109,8 +109,8 @@
   :recipe (:host github :repo "ginqi7/dictionary-overlay" :files ("*.el" "*.py" "resources"))
   :pin "9ef93d1de071de40b71644e3dd7a83342399c24b")
 (package! deno-bridge
-  :recipe (:host github :repo "manateelazycat/deno-bridge")
-  :pin "052db3abf0f72ac5792e4d8aff4554f3e5b3884d")
+  :recipe (:host github :repo "bbenchen/deno-bridge")
+  :pin "eb36e3da4d784c391a277a0da82d3f8cd3b4a96b")
 
 (package! editorconfig
   :recipe (:nonrecursive t)
