@@ -15,6 +15,8 @@
 (setq initial-major-mode 'fundamental-mode
       initial-scratch-message nil)
 
+(setq mode-line-right-align-edge 'right-margin)
+
 (setq doom-fd-executable "fd"
       doom-ripgrep-executable "rg")
 
