@@ -56,10 +56,10 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "6addab8636e88d0a0737d513ab475d6c2169e4cd" :built-in (>= emacs-major-version 30))
+(package! project :pin "d18f272e3cf357deaa317f004d7dcbf8cd264bbf" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
-(package! diff-hl :pin "d9f54b512a0f583c6c3b51ce0c8ef62bffac7763")
+(package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
 
 (package! vterm :pin "fd50624723200f4ac261f122f6332f57796c782f")
 
@@ -70,7 +70,7 @@
     :pin "c54f7ae75f9b1a9d69ed2bce074305537efdb1c8")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "14e1e92c1bdbdfee481ea4c99f81b48a275e1a7d"))
+    :pin "cc11b64f4690e0aaaec9aaf6d8fe69dd7bd8a5d0"))
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
@@ -133,7 +133,7 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "5f9b7fa1fe955b15246472091793bedf558601b4")
-(package! gptel :pin "6adaa52e48c0fca7dbbbef9cc6b2096fc8075c66")
+(package! gptel :pin "1b6c36c51998a71075e382b1de58996ba36a0da2")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -180,7 +180,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "070b3f8d55bf565f2a8badf8fb6b2cb7dd2dad98")
+  :pin "c71360b7cd3b7845711c146369c5b7405c8bf2ce")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
