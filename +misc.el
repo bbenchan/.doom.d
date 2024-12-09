@@ -232,6 +232,10 @@
   :when (modulep! :tools magit)
   :after magit)
 
+;; diff-hl
+(after! diff-hl
+  (setq diff-hl-disable-on-remote t))
+
 ;; pinentry
 ;; (use-package! pinentry
 ;;   :config
