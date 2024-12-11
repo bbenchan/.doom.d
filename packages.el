@@ -56,7 +56,7 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "d18f272e3cf357deaa317f004d7dcbf8cd264bbf" :built-in (>= emacs-major-version 30))
+(package! project :pin "9616dedb144165157a62469bfe5c1ba0e17cc827" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
@@ -74,7 +74,7 @@
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
-(package! nerd-icons :pin "a6ee08f1619bcde1a69b2defcfe8970c983640c1")
+(package! nerd-icons :pin "4bd9795f1f3f47cb874e10ff5c3845e037f0b3e2")
 (package! doom-themes
   :recipe (:host github :repo "bbenchan/doom-themes")
   :pin "8296c7b0c4ee7a619a706f7f611b32e36b58cc98")
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "94e5b862f07c5ac6af388040186abf123b00cac9")
+(package! llm :pin "602c383127e10c61b47fb6b4f78474fb5bf357a9")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -133,7 +133,7 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "5f9b7fa1fe955b15246472091793bedf558601b4")
-(package! gptel :pin "1b6c36c51998a71075e382b1de58996ba36a0da2")
+(package! gptel :pin "97218f8247a3772114d2e47f2ca59ec0e905a96a")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -180,7 +180,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "c71360b7cd3b7845711c146369c5b7405c8bf2ce")
+  :pin "dfd7d8dbfc10b30e047c61cd3a8efdb11479a004")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
