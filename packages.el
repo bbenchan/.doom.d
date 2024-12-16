@@ -61,13 +61,13 @@
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
 
-(package! vterm :pin "fd50624723200f4ac261f122f6332f57796c782f")
+(package! vterm :pin "09d019243d22434cc28708628126ec6e09aa5e7b")
 
 (when (modulep! :tools tree-sitter)
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "c54f7ae75f9b1a9d69ed2bce074305537efdb1c8")
+    :pin "6d3a2a71d1561009555ae9cdd7912ad205f88fb3")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
     :pin "cc11b64f4690e0aaaec9aaf6d8fe69dd7bd8a5d0"))
@@ -88,7 +88,7 @@
 
 (package! pinyinlib :pin "1772c79b6f319b26b6a394a8dda065be3ea4498d")
 
-(package! rime :pin "8837e4b86d3cef73079a3f4ad6d3c79885236aa5")
+(package! rime :pin "80f09ed36d9f0ca7ce4e1a3ca1020dc4c80ba335")
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
@@ -132,13 +132,13 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "5f9b7fa1fe955b15246472091793bedf558601b4")
-(package! gptel :pin "97218f8247a3772114d2e47f2ca59ec0e905a96a")
+  :pin "83abfcc07fd14243cf77d72079797163b14a60ba")
+(package! gptel :pin "1ea92206f385d20400ba5dcbaa4705d59cdea200")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "ad740d87e768052b0ef5b5e7f0822c7ac1b238fb")
+  :pin "725b2b01327da3bc45753ed966963a00c0411cf7")
 (package! verb :pin "c05263f8cad09b9bf13b03ad9198c40400f31483")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
@@ -180,7 +180,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "dfd7d8dbfc10b30e047c61cd3a8efdb11479a004")
+  :pin "068fab72b5051b6181a418edc89b74c63fdfec17")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
