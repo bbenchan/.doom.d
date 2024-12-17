@@ -56,7 +56,7 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "9616dedb144165157a62469bfe5c1ba0e17cc827" :built-in (>= emacs-major-version 30))
+(package! project :pin "25ec893d2f0c491fd9ea56c7a2b40f3ec982b8f4" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "602c383127e10c61b47fb6b4f78474fb5bf357a9")
+(package! llm :pin "5d71ef982e87c13e9d78b9ef03c11799cefc1a71")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -132,8 +132,8 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "83abfcc07fd14243cf77d72079797163b14a60ba")
-(package! gptel :pin "1ea92206f385d20400ba5dcbaa4705d59cdea200")
+  :pin "7f3601920b9f457cb3784fdf1300dce8ebb7918e")
+(package! gptel :pin "0ce162841b041d4913b88e35d7c18accee4f433a")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -180,7 +180,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "068fab72b5051b6181a418edc89b74c63fdfec17")
+  :pin "9935b7cd90c38f087257cd8f181323d4e922157c")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
