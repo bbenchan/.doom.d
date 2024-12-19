@@ -145,7 +145,7 @@
 (when (modulep! :tools magit)
   ;; Due to the bugs in the latest version of ghub limited to an available version
   (if (modulep! :tools magit +forge)
-      (package! ghub :pin "9cfd2aab8aeb614ef842a0abc46cd5d1ea8c4414"))
+      (package! ghub :pin "97edaf450ef74f40e6c0bd6a35ebd3fcb710ca4d"))
   (package! git-commit-ts-mode
     :recipe (:host github :repo "danilshvalov/git-commit-ts-mode")
     :pin "6eb42a3c08c5c6a1a610d433b93590b88a71f63e")
