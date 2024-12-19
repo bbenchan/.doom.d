@@ -61,7 +61,7 @@
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
 
-(package! vterm :pin "09d019243d22434cc28708628126ec6e09aa5e7b")
+(package! vterm :pin "99c1f5e76ac927825775c887c93e46036fac7327")
 
 (when (modulep! :tools tree-sitter)
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "5d71ef982e87c13e9d78b9ef03c11799cefc1a71")
+(package! llm :pin "3f0d15d2a6e6eb10df9dad560472872e0f63bf26")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -138,7 +138,7 @@
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "725b2b01327da3bc45753ed966963a00c0411cf7")
+  :pin "1c46469d0ea3642958eaf7cea1016fcf05b4daec")
 (package! verb :pin "c05263f8cad09b9bf13b03ad9198c40400f31483")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
