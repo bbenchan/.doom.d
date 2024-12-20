@@ -124,6 +124,7 @@
 (package! thing-edit
   :recipe (:host github :repo "manateelazycat/thing-edit")
   :pin "49b6a7cbc6a45d1aa9977a3f8f0e5d06b343f100")
+(package! region-occurrences-highlighter :pin "4c2c7a241fd257dd51f2726715cd1be022b3445a")
 
 (package! command-log-mode :pin "af600e6b4129c8115f464af576505ea8e789db27")
 ;; (package! pinentry :pin "91d51af8a1cb970743fb4841d7876c10ceb487e8")

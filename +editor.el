@@ -55,6 +55,14 @@
 ;; thing-edit
 (use-package! thing-edit)
 
+;; region-occurrences-highlighter
+(use-package! region-occurrences-highlighter
+  :config
+  (map! (:map region-occurrences-highlighter-nav-mode-map
+              "M-n" #'region-occurrences-highlighter-next
+              "M-p" #'region-occurrences-highlighter-prev))
+  (add-hook! (prog-mode org-mode text-mode conf-mode fundamental-mode) #'region-occurrences-highlighter-mode))
+
 ;; deno-bridge-jieba
 (use-package! deno-bridge-jieba
   :load-path (lambda () (list (expand-file-name "site-lisp/deno-bridge-jieba" doom-user-dir)))
