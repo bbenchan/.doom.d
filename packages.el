@@ -67,14 +67,14 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "789f559e59223d14368987c482b274a0920ccdf6")
+    :pin "e2ee3f66c62139f4cd4483c4d97ec34cb279df9d")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "cc11b64f4690e0aaaec9aaf6d8fe69dd7bd8a5d0"))
+    :pin "c66bb52b4e565d51064b0336be088fafc5cb2f36"))
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
-(package! nerd-icons :pin "4bd9795f1f3f47cb874e10ff5c3845e037f0b3e2")
+(package! nerd-icons :pin "9fc567ca7d1081e3356a28444d085d3cf5ffe3a7")
 (package! doom-themes
   :recipe (:host github :repo "bbenchan/doom-themes")
   :pin "4f9df143dd479dd4d6caf0a47d353cc5ad35ad6e")
@@ -133,8 +133,8 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "c1057df5340452d279cf5bdc476a874850952c58")
-(package! gptel :pin "77fcb02cd715a66069cf4ba7388f59459d493fa5")
+  :pin "a4de4114c09286b23049e31c74076c805bb50cc0")
+(package! gptel :pin "676503e88e7d26e862a74a6f3c9c3895b7870e1f")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
