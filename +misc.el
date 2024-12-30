@@ -22,13 +22,15 @@
 
 ;; docker
 (defun bc/set-docker-host-from-podman ()
-  (if (executable-find "podman")
+  (unless (file-exists-p "/var/run/docker.sock")
+    (when (and (featurep :system 'macos)
+               (executable-find "podman"))
       (let* ((res (cond
                    ((featurep :system 'linux) (doom-call-process "podman" "info" "--format" "{{.Host.RemoteSocket.Path"))
                    (t (doom-call-process "podman" "machine" "inspect" "--format" "{{.ConnectionInfo.PodmanSocket.Path}}"))))
              (code (car res)))
         (if (zerop code)
-            (setenv "DOCKER_HOST" (format "unix://%s" (cdr res)))))))
+            (setenv "DOCKER_HOST" (format "unix://%s" (cdr res))))))))
 (add-hook! 'doom-after-init-hook #'bc/set-docker-host-from-podman)
 
 ;; recentf
