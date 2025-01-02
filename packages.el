@@ -56,7 +56,7 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "25ec893d2f0c491fd9ea56c7a2b40f3ec982b8f4" :built-in (>= emacs-major-version 30))
+(package! project :pin "b6c786689a385d672a112a6dfd3654aa6868fde1" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
@@ -70,11 +70,11 @@
     :pin "e2ee3f66c62139f4cd4483c4d97ec34cb279df9d")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "c66bb52b4e565d51064b0336be088fafc5cb2f36"))
+    :pin "a8b69682bb79c3642ad964e40865212f5c07df12"))
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
-(package! nerd-icons :pin "9fc567ca7d1081e3356a28444d085d3cf5ffe3a7")
+(package! nerd-icons :pin "546ee20caf825e65da4c5435d31f13d269ed2a81")
 (package! doom-themes
   :recipe (:host github :repo "bbenchan/doom-themes")
   :pin "4f9df143dd479dd4d6caf0a47d353cc5ad35ad6e")
@@ -134,12 +134,12 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "a4de4114c09286b23049e31c74076c805bb50cc0")
-(package! gptel :pin "676503e88e7d26e862a74a6f3c9c3895b7870e1f")
+(package! gptel :pin "13fd0064fce42fd4ea11ea3a5bcbee33ac30a197")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "1c46469d0ea3642958eaf7cea1016fcf05b4daec")
+  :pin "c5b172603762723c6a95ae0a986b175e96531b61")
 (package! verb :pin "2c46542a64e79919496f5a8255b7321f6ba00fd1")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
@@ -155,13 +155,13 @@
     :pin "617d1b239942af62adaedfe4ce248f09a3a67029")
   (package! blamer :pin "8a79c1f370f7c5f041c980e0b727960462c192ba"))
 
-(package! auto-rename-tag :pin "fb0a38e644354f38578fee8e0bf5fe7f124aa8a7")
+(package! auto-rename-tag :pin "b38895ff4821df3a0461959146e9f912d2acde4e")
 
 (when (modulep! :lang go)
   (package! go-impl :pin "1eebba6ccd02d11a5a82ad4540a8d562797bc3b3")
   (package! go-fill-struct :pin "9e2e4be5af716ecadba809e73ddc95d4c772b2d9")
   (disable-packages! go-eldoc))
-(package! pkgbuild-mode :pin "8c31b24e5979fddf2411456c8957f41f06ae5714")
+(package! pkgbuild-mode :pin "1531fd0e4112a633ead0a7ba72d51c2255a4b959")
 (package! protobuf-ts-mode
   :recipe (:host github :repo "emacsattic/protobuf-ts-mode")
   :pin "65152f5341ea4b3417390b3e60b195975161b8bc")
@@ -181,7 +181,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "d9f0b3b709f8c137d74bb1f48267e7ce62950aae")
+  :pin "ebbc24b403020d52c4f0834c83d659d0967d4fa1")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
