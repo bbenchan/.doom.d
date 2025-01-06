@@ -56,7 +56,7 @@
 (package! tree-sitter-indent :disable t)
 (package! mu4e-alert :disable t)
 
-(package! project :pin "b6c786689a385d672a112a6dfd3654aa6868fde1" :built-in (>= emacs-major-version 30))
+(package! project :pin "1153923187300a8643032e346c5b84af1fe12370" :built-in (>= emacs-major-version 30))
 (package! which-key :pin "38d4308d1143b61e4004b6e7a940686784e51500" :built-in 'prefer)
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
@@ -67,7 +67,7 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "e2ee3f66c62139f4cd4483c4d97ec34cb279df9d")
+    :pin "4f951dbb530d254a0eb223431a0e0d63b2a7399a")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
     :pin "a8b69682bb79c3642ad964e40865212f5c07df12"))
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "26d03b7ed5215cd21be9246b6993d75f4374be7d")
+(package! llm :pin "5bf8c4d459fe4dd700dffe1e1dafb1ca61c691ff")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -133,14 +133,14 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "a4de4114c09286b23049e31c74076c805bb50cc0")
-(package! gptel :pin "13fd0064fce42fd4ea11ea3a5bcbee33ac30a197")
+  :pin "471673b0d491c149668e442f6685f4f485f58e54")
+(package! gptel :pin "7ac9201b84f3d132dce0094d135a525ebcfafa12")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "c5b172603762723c6a95ae0a986b175e96531b61")
-(package! verb :pin "2c46542a64e79919496f5a8255b7321f6ba00fd1")
+  :pin "54feb9e5982a3f38e561cdd28494bed23784bedb")
+(package! verb :pin "13ddd3d5339ba50f25662bed147ff02614e0c306")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
 (when (modulep! :tools magit)
@@ -181,7 +181,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "ebbc24b403020d52c4f0834c83d659d0967d4fa1")
+  :pin "3ec24b478058ed8abef9d9608ea8718731bc0752")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
