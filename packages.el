@@ -133,13 +133,13 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "471673b0d491c149668e442f6685f4f485f58e54")
-(package! gptel :pin "7ac9201b84f3d132dce0094d135a525ebcfafa12")
+  :pin "9a564f76156595fc0051316fd4af679516f11057")
+(package! gptel :pin "25efd55002c591b3721cdd2c96dac93d70dce814")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "54feb9e5982a3f38e561cdd28494bed23784bedb")
+  :pin "9a5b5e2b071be99350bfc8db6fbc2c9c667f3725")
 (package! verb :pin "13ddd3d5339ba50f25662bed147ff02614e0c306")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
@@ -161,7 +161,7 @@
   (package! go-impl :pin "1eebba6ccd02d11a5a82ad4540a8d562797bc3b3")
   (package! go-fill-struct :pin "9e2e4be5af716ecadba809e73ddc95d4c772b2d9")
   (disable-packages! go-eldoc))
-(package! pkgbuild-mode :pin "1531fd0e4112a633ead0a7ba72d51c2255a4b959")
+(package! pkgbuild-mode :pin "aadf3d1d19c5eb9b52c15c5b73b1a46faac5b7d5")
 (package! protobuf-ts-mode
   :recipe (:host github :repo "emacsattic/protobuf-ts-mode")
   :pin "65152f5341ea4b3417390b3e60b195975161b8bc")
@@ -181,7 +181,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "3ec24b478058ed8abef9d9608ea8718731bc0752")
+  :pin "25b6703517ff6444552c87f4b2a7d96188e5b818")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
