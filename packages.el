@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "5bf8c4d459fe4dd700dffe1e1dafb1ca61c691ff")
+(package! llm :pin "f98d9c11c1f47adf6133c68abe92fe7e3a935ee4")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -128,25 +128,25 @@
 
 (package! command-log-mode :pin "af600e6b4129c8115f464af576505ea8e789db27")
 ;; (package! pinentry :pin "91d51af8a1cb970743fb4841d7876c10ceb487e8")
-(package! envrc :pin "60f509153828c45a0e05e11a4d83b2b1798f0706")
+(package! envrc :pin "2b818ca6e4a2f723e7cab70cd0101c2728581c3a")
 (package! mb-url :pin "a0ff17901324027774b943d8f58257adb9ae1861")
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "9a564f76156595fc0051316fd4af679516f11057")
-(package! gptel :pin "25efd55002c591b3721cdd2c96dac93d70dce814")
+  :pin "9e00fea9479593e74ee8de88515cd2f561814bd0")
+(package! gptel :pin "5115d441e7426287836d0e9bd39b02f69e63eb11")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "9a5b5e2b071be99350bfc8db6fbc2c9c667f3725")
+  :pin "3c2b2b35863d8222ad0ee061f3988aa110a87861")
 (package! verb :pin "13ddd3d5339ba50f25662bed147ff02614e0c306")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
 (when (modulep! :tools magit)
   ;; Due to the bugs in the latest version of ghub limited to an available version
   (if (modulep! :tools magit +forge)
-      (package! ghub :pin "97edaf450ef74f40e6c0bd6a35ebd3fcb710ca4d"))
+      (package! ghub :pin "73d2a4878cb6f8ea44521b3062082d53b631dcad"))
   (package! git-commit-ts-mode
     :recipe (:host github :repo "danilshvalov/git-commit-ts-mode")
     :pin "6eb42a3c08c5c6a1a610d433b93590b88a71f63e")
