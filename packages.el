@@ -61,7 +61,7 @@
 
 (package! diff-hl :pin "65a5de16e21c87b7c12a78a63fc3b57e07c03c86")
 
-(package! vterm :pin "99c1f5e76ac927825775c887c93e46036fac7327")
+(package! vterm :pin "056ad74653704bc353d8ec8ab52ac75267b7d373")
 
 (when (modulep! :tools tree-sitter)
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
@@ -70,7 +70,7 @@
     :pin "4f951dbb530d254a0eb223431a0e0d63b2a7399a")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "a8b69682bb79c3642ad964e40865212f5c07df12"))
+    :pin "96c4c9f798ef9cf966f7b4d61c8a1d548915053e"))
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
@@ -134,7 +134,7 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "9e00fea9479593e74ee8de88515cd2f561814bd0")
-(package! gptel :pin "5115d441e7426287836d0e9bd39b02f69e63eb11")
+(package! gptel :pin "02f603fdc0f2e8f635fa1c7faabcba8db6367af0")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
@@ -146,7 +146,7 @@
 (when (modulep! :tools magit)
   ;; Due to the bugs in the latest version of ghub limited to an available version
   (if (modulep! :tools magit +forge)
-      (package! ghub :pin "73d2a4878cb6f8ea44521b3062082d53b631dcad"))
+      (package! ghub :pin "aa67d0ce0428b66b0a302287e1b9023fb868af79"))
   (package! git-commit-ts-mode
     :recipe (:host github :repo "danilshvalov/git-commit-ts-mode")
     :pin "6eb42a3c08c5c6a1a610d433b93590b88a71f63e")
