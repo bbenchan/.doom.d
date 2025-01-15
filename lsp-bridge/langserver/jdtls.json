@@ -37,6 +37,7 @@
         "maven": {
           "downloadSources": true
         },
+        "implementationCodeLens": "all",
         "configuration": {
           "updateBuildConfiguration": "automatic",
           "checkProjectSettingsExclusions": true,
