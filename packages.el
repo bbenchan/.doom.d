@@ -67,10 +67,10 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "4f951dbb530d254a0eb223431a0e0d63b2a7399a")
+    :pin "6d9ea110d789e4364c4d3ded909582b41ba3655f")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
-    :pin "96c4c9f798ef9cf966f7b4d61c8a1d548915053e"))
+    :pin "8ec6de2b374e9bdbcb2cb42e09e6ce6e25efea5c"))
 
 (package! posframe :pin "81651536827c96bf5af5265ee7918ab70e1dd5b1")
 
@@ -133,20 +133,20 @@
 
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
-  :pin "9e00fea9479593e74ee8de88515cd2f561814bd0")
-(package! gptel :pin "02f603fdc0f2e8f635fa1c7faabcba8db6367af0")
+  :pin "a256968d1faaf2936d12696a364158df56931cdb")
+(package! gptel :pin "447a37e715323bc447bbb37e045e0dbacd8e7bad")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
-  :pin "a2331bfc165bcee14bccda9493f63ac313fb2788")
-(package! verb :pin "13ddd3d5339ba50f25662bed147ff02614e0c306")
+  :pin "449c1226f7108e1cf8b4b447a65fa053b6bd782f")
+(package! verb :pin "c32c860afeb4dca281219584e3a7f4c5365f8792")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
 (when (modulep! :tools magit)
   ;; Due to the bugs in the latest version of ghub limited to an available version
   (if (modulep! :tools magit +forge)
-      (package! ghub :pin "aa67d0ce0428b66b0a302287e1b9023fb868af79"))
+      (package! ghub :pin "1e1530c3038f7a2d604c3169e3542dd59cab2703"))
   (package! git-commit-ts-mode
     :recipe (:host github :repo "danilshvalov/git-commit-ts-mode")
     :pin "6eb42a3c08c5c6a1a610d433b93590b88a71f63e")
@@ -181,7 +181,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "051e04249216da104e076830bc8b284e9c208ee0")
+  :pin "a545abed0df85f61d3578be4632afeb7debcb988")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
