@@ -67,7 +67,7 @@
   (package! tree-sitter :pin "3cfab8a0e945db9b3df84437f27945746a43cc71")
   (package! tree-sitter-langs
     :recipe (:nonrecursive t)
-    :pin "6d9ea110d789e4364c4d3ded909582b41ba3655f")
+    :pin "0bbb1b4dcad1dff1dd79868521ad873cc9bf69a2")
   (package! ts-fold
     :recipe (:host github :repo "emacs-tree-sitter/ts-fold")
     :pin "8ec6de2b374e9bdbcb2cb42e09e6ce6e25efea5c"))
@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "f98d9c11c1f47adf6133c68abe92fe7e3a935ee4")
+(package! llm :pin "57dd64b63247d51252f969fbfd6b708821f59b2d")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -134,19 +134,19 @@
 (package! aider
   :recipe (:host github :repo "tninja/aider.el" :files ("aider.el" "aider-doom.el"))
   :pin "a256968d1faaf2936d12696a364158df56931cdb")
-(package! gptel :pin "447a37e715323bc447bbb37e045e0dbacd8e7bad")
+(package! gptel :pin "da66b37c75a48d1db075ce9dd525121e58a2c9af")
 (package! corsair :pin "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")
 
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
   :pin "449c1226f7108e1cf8b4b447a65fa053b6bd782f")
-(package! verb :pin "c32c860afeb4dca281219584e3a7f4c5365f8792")
+(package! verb :pin "77798d2566e741b86fb52826d21faad742120eae")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
 (when (modulep! :tools magit)
   ;; Due to the bugs in the latest version of ghub limited to an available version
   (if (modulep! :tools magit +forge)
-      (package! ghub :pin "1e1530c3038f7a2d604c3169e3542dd59cab2703"))
+      (package! ghub :pin "d15431c832360d57a4e76b5d129dd5833072684a"))
   (package! git-commit-ts-mode
     :recipe (:host github :repo "danilshvalov/git-commit-ts-mode")
     :pin "6eb42a3c08c5c6a1a610d433b93590b88a71f63e")
