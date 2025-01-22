@@ -92,7 +92,7 @@
 
 (package! go-translate :pin "424682b94df9efb3dd59e396677b45e4a67b7723")
 (package! immersive-translate :pin "1d00d558363985fa988fc40cd5093bfc6926d83e")
-(package! llm :pin "57dd64b63247d51252f969fbfd6b708821f59b2d")
+(package! llm :pin "3912c224f5e4bb6b2c1d81be30b361ec18e5993a")
 (package! insert-translated-name
   :recipe (:host github :repo "manateelazycat/insert-translated-name" :files ("*.el" "*.py"))
   :pin "a2bc301f6e99a6f965f7612c5666546e3d1a8fe3")
@@ -107,7 +107,7 @@
   :pin "40676478e3b2dd5af068b1f7f7024776e7557446")
 (package! dictionary-overlay
   :recipe (:host github :repo "ginqi7/dictionary-overlay" :files ("*.el" "*.py" "resources"))
-  :pin "9ef93d1de071de40b71644e3dd7a83342399c24b")
+  :pin "a488bb7cf3823bf5a0f04cc896f811a68892a448")
 (package! deno-bridge
   :recipe (:host github :repo "bbenchen/deno-bridge")
   :pin "eb36e3da4d784c391a277a0da82d3f8cd3b4a96b")
@@ -140,7 +140,7 @@
 (package! easydraw
   :recipe (:host github :repo "misohena/el-easydraw")
   :pin "449c1226f7108e1cf8b4b447a65fa053b6bd782f")
-(package! verb :pin "77798d2566e741b86fb52826d21faad742120eae")
+(package! verb :pin "1a5cc0b60c2f49180d491dc7da23a1044ebd343f")
 (package! ox-gfm :pin "4f774f13d34b3db9ea4ddb0b1edc070b1526ccbb")
 
 (when (modulep! :tools magit)
@@ -181,7 +181,7 @@
            :repo "bbenchan/lsp-bridge"
            :files ("*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
            :build (:not compile))
-  :pin "a545abed0df85f61d3578be4632afeb7debcb988")
+  :pin "7d4a5acd73e99121e6f1a03430a8153ce1d438bb")
 (when (modulep! :checkers syntax +flymake)
   (package! flymake-bridge
     :recipe (:host github :repo "liuyinz/flymake-bridge")
